@@ -1,0 +1,14 @@
+.heading{
+    width: 100%;
+    text-align: left;
+}
+.heading h2{
+    display: inline;
+}
+.heading button{
+    float: right;
+    border: 2px dashed white;
+}
+#start, #status, #restart{
+    font-size: 20px;
+}
