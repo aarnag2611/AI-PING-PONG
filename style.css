@@ -25,3 +25,8 @@ li{
     color:white;
     font-size: 20px;
 }
+canvas{
+    border: 2px dashed palegreen;
+    border-radius: 25px;
+    box-shadow: 5px 5px 40px palegoldenrod;
+}
