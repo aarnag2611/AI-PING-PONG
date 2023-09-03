@@ -1,32 +1,41 @@
-.heading{
-    width: 100%;
-    text-align: left;
+
+.heading
+{
+width: 100%;
+text-align: left;
 }
-.heading h2{
+.heading h3{
     display: inline;
 }
+
 .heading button{
     float: right;
-    border: 2px dashed white;
+    border: 1px solid white;
 }
-#start, #status, #restart{
+
+#start ,#status, #restart
+{
+font-size: 22px;
+}
+
+.modal-dialog
+{
+    width: 70%;
+}
+.modal-body
+{
+    text-align: left;
     font-size: 20px;
 }
-li{
-   text-align: left;
+h4
+{
+   background-color: paleturquoise;
+   color:black;
+   line-height: 2;
 }
-.footer{
-    position: fixed;
-    width: 100%;
-    line-height: 2;
-    bottom:0;
-    background-color: rgb(107, 91, 158);
-    text-align: center;
-    color:white;
-    font-size: 20px;
-}
-canvas{
-    border: 2px dashed palegreen;
-    border-radius: 25px;
-    box-shadow: 5px 5px 40px palegoldenrod;
-}
+canvas 
+  {
+      border:3px solid white;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px white;
+  }
